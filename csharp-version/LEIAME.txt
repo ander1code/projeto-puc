@@ -1,0 +1,25 @@
+﻿WinMatriculaApp v1.0 - 2018
+
+1 - Descrição
+	- Sistema de cálculo e teste do dígito verificador de matrículas.
+	- Ambientes de execução: Windows com .net Framework 4.5;
+	- Ambiente de desenvolvimento: Visual Studio 2013 Ultimate.
+
+2 - Funcionalidades:
+
+	2.1 - Informando:
+		- O Sistema calcula o dígito verificador de uma matrícula através do próprio formulário.
+
+	2.2 - Mediante arquivo:
+
+	2.2.1 - Calcular dígito verificador:
+		  - O Sistema calcula o dígito verificador de matrículas dentro um arquivo informado, e gera um arquivo de saída com as matrículas e seus dígitos verificadores calculados.
+
+	2.2.2 – Testar dígito verificador de matrículas:
+		  - O Sistema testa o dígito verificador de matrículas dentro um arquivo informado, e gera um arquivo de saída com as matrículas e a descrição “verdadeiro” ou “falso” para a junção matrícula e dígito verificador.
+
+3 – Utilização:
+	3.1 – Execute o programa “WinMatriculaApp.exe” em modo Administrativo (preferencialmente). Clique com botão direito sobre o programa e “Executar como Administrador”. Confirme a opção posteriormente.
+	3.2 – Ao abrir o programa, selecione a opção “Digitar” (para calcular o dígito de uma única mátricula), ou “Em arquivo” (para calcular o dígito verificador de uma lista de matrículas em arquivo “*.txt”, ou, para testar o dígito verificador de uma lista de matrículas com dígito verificador.
+	3.3 – Mediante as opções acima clique em “Calcular” para calcular o dígito verificador ou “Testar” para testar o dígito verificador numa lista em arquivo.
+

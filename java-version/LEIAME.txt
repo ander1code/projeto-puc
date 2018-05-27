@@ -1,0 +1,35 @@
+﻿JavaMatriculaApp v1.0 - 2018
+
+1 - Descrição
+	- Sistema de cálculo e teste do dígito verificador de matrículas.
+	- Ambientes de execução: Windows com JAVA 1.8.
+	- Formato: Aplicação em Console (modo-texto).
+	- Ambiente de desenvolvimento: NetBeans 8.2 
+	- Utiliza o MAVEN.
+
+2 - Funcionalidades:
+
+	2.1 - Informando:
+		- O Sistema calcula o dígito verificador de uma matrícula informada pelo teclado.
+
+	2.2 - Mediante arquivo:
+
+	2.2.1 - Calcular dígito verificador:
+		  - O Sistema calcula o dígito verificador de matrículas dentro um arquivo informado, e gera um arquivo de saída com as matrículas e seus dígitos verificadores calculados.
+
+	2.2.2 – Testar dígito verificador de matrículas:
+		  - O Sistema testa o dígito verificador de matrículas dentro um arquivo informado, e gera um arquivo de saída com as matrículas e a descrição “verdadeiro” ou “falso” para a junção matrícula e dígito verificador.
+
+3 – Utilização:
+	3 – Utilização
+		3.1 – Abra o diretório onde se encontra o arquivo “*.jar”, e digite (SHIFT + botão direito do mouse). Ao abrir o menu, selecione a opção “Abrir o prompt de comando aqui”. Ao abrir o “cmd”, digite “java –jar JavaMatriculaApp-1.0.jar” e <ENTER>.
+		
+		3.2 – Ao executar o projeto, serão mostradas 3 opções:
+			3.2.1 – Informar matrícula: 
+			      - Calcular o dígito verificador de uma única matrícula.
+			3.2.2 – Calcular matrículas em arquivo: 
+                              - Calcular o dígito verificador em uma lista pré-definida num arquivo “*.txt” já no diretório do arquivo “*.jar” do projeto.
+			3.3.1 – Testar verificação de matrícula em arquivo: 
+                              - Testar as matrículas com  digito verificador listadas num arquivo, e gera um arquivo de saída sinalizando com “verdadeiro” ou “falso” a junção dessas matrículas e seu dígitos verificador.
+
+Obs: Nessa versão ConsoleApplication, os arquivos de entrada e saída para essas operações serão automaticamente setados.

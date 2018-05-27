@@ -1,0 +1,10 @@
+1371-8 - Verdadeiro
+4377-3 - Verdadeiro
+5252-4 - Verdadeiro
+5496-1 - Falso
+5689-C - Falso
+5746-E - Falso
+6035-1 - Verdadeiro
+6279-D - Verdadeiro
+6461-2 - Verdadeiro
+6796-1 - Verdadeiro
